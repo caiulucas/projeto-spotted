@@ -15,9 +15,11 @@ export const Display = styled.View`
   margin: 0 24px;
 `;
 
-
 export const Back = styled(RectButton)`
   margin-bottom: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
 `;
 
 export const Text = styled.Text`
