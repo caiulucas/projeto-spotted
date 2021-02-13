@@ -37,7 +37,7 @@ const Main: React.FC = () => {
             <SignupButton onPress={() => handleNavigate('SignUp')}>
               <SignupTextButton>CADASTRAR</SignupTextButton>
             </SignupButton>
-            <SigninButton>
+            <SigninButton onPress={() => handleNavigate('SignIn')}>
               <SigninTextButton>LOGIN</SigninTextButton>
             </SigninButton>
           </ButtonContainer>
